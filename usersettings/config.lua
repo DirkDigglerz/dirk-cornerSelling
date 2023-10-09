@@ -1,3 +1,4 @@
+--## //
 Config = {
   moneyObject      = "prop_cash_pile_02", --## Object to use when handing over money
   drugObject       = "prop_meth_bag_01", --## Object to use when handing over drugs

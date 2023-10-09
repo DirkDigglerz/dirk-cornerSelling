@@ -104,7 +104,7 @@ end
 RegisterCommand("SellDrugs", CornerSell)
 
 
-HandOver = function(ent,rec, object)
+HandOver = function(ent,rec, object) --## Commit
   FreezeEntityPosition(ent, false)
   FreezeEntityPosition(rec, false)
   TaskTurnPedToFaceEntity(rec, ent, -1)
